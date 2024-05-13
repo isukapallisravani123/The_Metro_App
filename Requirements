@@ -1,0 +1,15 @@
+**Data Structures Used**:
+
+**Graph (defaultdict)**: 
+Used to represent the transportation network where each station is a key mapped to a list of tuples containing neighboring stations, distances, and times.
+
+**Directed Edges (set)**: 
+Stores one-way connections between stations to handle directed edges in the graph.
+
+**Algorithms Used**:
+
+**Dijkstra's Algorithm for Shortest Path (Min Distance)**:
+Finds the shortest path between two stations based on the minimum distance traveled. Implemented using a priority queue (heap) to efficiently explore neighboring stations.
+
+**Dijkstra's Algorithm for Shortest Path (Min Time)**:
+Similar to the previous algorithm but considers time instead of distance, finding the path with the minimum travel time.
